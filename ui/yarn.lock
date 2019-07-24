@@ -1136,10 +1136,10 @@
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.3.tgz#f060bf6eaafae4d56a7dac618980838b0696e2ab"
   integrity sha512-FmuxfCuolpLl0AnQ2NHSzoUKWEJDFl63qXjzdoWBVyFCXzMGm1spBzk7LeHNoVCiWCF7mRVms9e6jEV9+MoPbg==
 
-"@influxdata/clockface@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@influxdata/clockface/-/clockface-0.0.17.tgz#992c819bf7ae63a0713c541ecefee8ee8aec267e"
-  integrity sha512-etnewgdU2LxphVj/Y2g5TqDITI5z98EBvQDdd/9mkkuouzXLBtTQL/6GJ/PlEyIOYC1frbzd5Be3F8DMA3rZiw==
+"@influxdata/clockface@0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@influxdata/clockface/-/clockface-0.0.18.tgz#9455fa5236be8ab0733ddde8b57ce818ce6889a7"
+  integrity sha512-LFaj+PV3ikugOHivGWAefDaN2ZazrxA6GfCfYhWqBH1bkZY94w0QY72doAmPBvxPfdr2wY8cPP1WD7lkU2fTYQ==
   dependencies:
     chroma-js "^2.0.3"
     classnames "^2.2.6"
@@ -8049,12 +8049,12 @@ mocha@^5.2.0:
     mkdirp "0.5.1"
     supports-color "5.4.0"
 
-moment@2.24.0:
+moment@2.24.0, moment@^2.18.1:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
-moment@^2.13.0, moment@^2.8.2:
+moment@^2.8.2:
   version "2.22.2"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
   integrity sha1-PCV/mDn8DpP/UxSWMiOeuQeD/2Y=
