@@ -1,4 +1,6 @@
-Checkpackage influxdb
+package influxdb
+
+import "context"
 
 // Check represents the information required to generate a periodic check task.
 type Check struct {
@@ -37,18 +39,6 @@ func (t *CheckTag) Valid() error {
 	return nil
 }
 
-// CheckUpdate are properties than can be updated on a check
-type CheckUpdate struct {
-	StatusMessageTemplate *string    `json:statusMessageTemplate`
-	Tags                  []CheckTag `json:"tags"`
-	Query                 *string    `json:"flux,omitempty"`
-
-	// For the task
-	Status          *string `json:"status,omitempty"`
-	Description     *string `json:"description,omitempty"`
-	LatestCompleted *string `json:"-"`
-}
-
 // CheckService represents a service for managing checks.
 type CheckService interface {
 	// FindCheckByID returns a single check by ID.
@@ -70,6 +60,26 @@ type CheckService interface {
 
 	// DeleteCheck removes a bucket by ID.
 	DeleteCheck(ctx context.Context, id ID) error
+}
+
+// CheckUpdate are properties than can be updated on a check
+type CheckUpdate struct {
+	StatusMessageTemplate *string    `json:"statusMessageTemplate"`
+	Tags                  []CheckTag `json:"tags"`
+	Query                 *string    `json:"flux,omitempty"`
+
+	// For the task
+	Status          *string `json:"status,omitempty"`
+	Description     *string `json:"description,omitempty"`
+	LatestCompleted *string `json:"-"`
+}
+
+// CheckFilter represents a set of filters that restrict the returned results.
+type CheckFilter struct {
+	ID             *ID
+	Name           *string
+	OrganizationID *ID
+	Org            *string
 }
 
 // func (c *Check) UnmarshalJSON(data []byte) error {
