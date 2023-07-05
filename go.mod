@@ -8,7 +8,7 @@ require (
 	github.com/RoaringBitmap/roaring v0.4.16
 	github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883
 	github.com/apache/arrow/go/arrow v0.0.0-20190426170622-338c62a2a205
-	github.com/aws/aws-sdk-go v1.16.15 // indirect
+	github.com/aws/aws-sdk-go v1.34.0 // indirect
 	github.com/benbjohnson/tmpl v1.0.0
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
 	github.com/boltdb/bolt v1.3.1 // indirect
@@ -63,7 +63,7 @@ require (
 	github.com/onsi/gomega v1.4.3 // indirect
 	github.com/opentracing/opentracing-go v1.1.0
 	github.com/philhofer/fwd v1.0.0 // indirect
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v0.9.0
 	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
 	github.com/prometheus/common v0.0.0-20181020173914-7e9e6cabbd39
@@ -89,7 +89,7 @@ require (
 	go.uber.org/multierr v1.1.0
 	go.uber.org/zap v1.9.1
 	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
-	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
+	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
 	golang.org/x/oauth2 v0.0.0-20181017192945-9dcd33a902f4
 	golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6
 	golang.org/x/sys v0.0.0-20190403152447-81d4e9dc473e
