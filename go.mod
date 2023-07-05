@@ -28,10 +28,10 @@ require (
 	github.com/glycerine/goconvey v0.0.0-20180728074245-46e3a41ad493 // indirect
 	github.com/gogo/protobuf v1.2.1
 	github.com/golang/gddo v0.0.0-20181116215533-9bd4a3295021
-	github.com/golang/protobuf v1.3.1
-	github.com/golang/snappy v0.0.1
-	github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c
-	github.com/google/go-cmp v0.3.0
+	github.com/golang/protobuf v1.5.2
+	github.com/golang/snappy v0.0.3
+	github.com/google/btree v1.0.0
+	github.com/google/go-cmp v0.5.9
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e // indirect
 	github.com/goreleaser/goreleaser v0.97.0
@@ -63,9 +63,9 @@ require (
 	github.com/onsi/gomega v1.4.3 // indirect
 	github.com/opentracing/opentracing-go v1.1.0
 	github.com/philhofer/fwd v1.0.0 // indirect
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v0.9.0
-	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
+	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/common v0.0.0-20181020173914-7e9e6cabbd39
 	github.com/prometheus/procfs v0.0.3 // indirect
 	github.com/satori/go.uuid v1.2.0
@@ -88,20 +88,20 @@ require (
 	github.com/yudai/pp v2.0.1+incompatible // indirect
 	go.uber.org/multierr v1.1.0
 	go.uber.org/zap v1.9.1
-	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
-	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
-	golang.org/x/oauth2 v0.0.0-20181017192945-9dcd33a902f4
-	golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6
-	golang.org/x/sys v0.0.0-20190403152447-81d4e9dc473e
-	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
-	golang.org/x/tools v0.0.0-20190322203728-c1a832b0ad89
-	google.golang.org/api v0.0.0-20181021000519-a2651947f503
-	google.golang.org/grpc v1.19.1
+	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa
+	golang.org/x/net v0.5.0
+	golang.org/x/oauth2 v0.4.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.4.0
+	golang.org/x/time v0.1.0
+	golang.org/x/tools v0.3.0
+	google.golang.org/api v0.103.0
+	google.golang.org/grpc v1.53.0
 	gopkg.in/editorconfig/editorconfig-core-go.v1 v1.3.0 // indirect
 	gopkg.in/ini.v1 v1.42.0 // indirect
 	gopkg.in/robfig/cron.v2 v2.0.0-20150107220207-be2e0b0deed5
 	gopkg.in/vmihailenco/msgpack.v2 v2.9.1 // indirect
-	honnef.co/go/tools v0.0.0-20190319011948-d116c56a00f3
+	honnef.co/go/tools v0.0.1-2020.1.4
 	labix.org/v2/mgo v0.0.0-20140701140051-000000000287 // indirect
 	launchpad.net/gocheck v0.0.0-20140225173054-000000000087 // indirect
 )
